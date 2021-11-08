@@ -1,0 +1,20 @@
+{
+  "name": "cpnt262-a5",
+  "version": "1.0.0",
+  "description": "Assignment 5",
+  "main": "server.js",
+  "scripts": {
+    "test": "Connecting",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rankorrdagod/cpnt262-a5.git"
+  },
+  "author": "Evan Burton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rankorrdagod/cpnt262-a5/issues"
+  },
+  "homepage": "https://github.com/Rankorrdagod/cpnt262-a5#readme"
+}
