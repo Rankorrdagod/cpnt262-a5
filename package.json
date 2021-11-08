@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Rankorrdagod/cpnt262-a5/issues"
   },
-  "homepage": "https://github.com/Rankorrdagod/cpnt262-a5#readme"
+  "homepage": "https://github.com/Rankorrdagod/cpnt262-a5#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.12"
+  }
 }
