@@ -25,4 +25,4 @@ const placeSchema = new mongoose.Schema({
 /* Compile Model */
 /*****************/
 
-module.exports = mongoose.model('Place', placeSchema)
+module.exports = mongoose.model('Places', placeSchema)
