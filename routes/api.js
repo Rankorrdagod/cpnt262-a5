@@ -1,4 +1,4 @@
-[
+const travel = [
     {
         id: 1,
         title: 'New York Skyline',
@@ -99,3 +99,4 @@
         creditURL: 'https://pixabay.com/photos/pedestrians-crossing-traffic-1853552/'
     }
     ]
+    module.exports = travel
