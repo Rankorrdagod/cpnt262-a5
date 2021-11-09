@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+      background-color: #B5CAFF;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: auto;
+        max-width: 1200px;
+        margin: auto;
+      }
+      
+      .gallery > * {
+        margin: 1em;
+      }
+      figure{
+        background-color: #9CB8FF;
+        
+        border-radius: 5%;
+        
+        padding: 15px;
+      }
+      img{
+        border-radius: 5%;
+      }
+      h1{
+        font-size: 100px;
+        color: #B39449;
+      }
