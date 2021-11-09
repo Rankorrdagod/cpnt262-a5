@@ -8,7 +8,7 @@ app.use(express.static('public'))
 app.use(express.urlencoded({ extended: true }));
 
 
-const Place = require('./models/Places.js')
+const Place = require('../models/Places')
 console.log(Place);
 
 // List entry route
