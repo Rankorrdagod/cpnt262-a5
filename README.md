@@ -1,4 +1,5 @@
 # cpnt262-a5
+https://evancpnt262-a5.herokuapp.com/
 ## Issues
 - For some reason having the schema and db code in different .js files isnt working, schema always comes back as undefined... going to try to add to api.js too see if it fixes it.
 - Added everything to the api.js and it seemed to work! Going toplug along for now and see if anything else breaks.
@@ -17,5 +18,5 @@
 - [Image 9](https://pixabay.com/photos/pedestrians-crossing-traffic-1853552/)
 - The Venerable [Tony Grimes](https://github.com/sait-wbdv/in-class/tree/main/cpnt262)
 - [Icah Vega](https://github.com/Icahpv) for troubleshooting ideas, thank you.
-- [Tech Endeavor](https://www.youtube.com/watch?v=DBFIp1kIqMs&ab_channel=TechEndeavor) Helping understand routes
-- [Web Dev Simplified](https://www.youtube.com/watch?v=fgTGADljAeg&ab_channel=WebDevSimplified) Working with express and mongoDB
+- [Tech Endeavor](https://www.youtube.com/watch?v=DBFIp1kIqMs&ab_channel=TechEndeavor) Helping understand routes.
+- [Web Dev Simplified](https://www.youtube.com/watch?v=fgTGADljAeg&ab_channel=WebDevSimplified) Working with express and mongoDB.
