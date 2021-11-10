@@ -33,11 +33,25 @@ body{display: flex;
         width: 25em;
         color: white;
         border-radius: 5em;
-        margin: 2em;
+        
       }
       .queryAll{
         width: 40em;
         border-radius: 5em;
         color: white;
       }
-    
+
+      .queryOne{
+        width: 40em;
+        border-radius: 5em;
+        color: white;
+      }
+      .error{
+        width: 40em;
+        border-radius: 5em;
+        color: white;
+      }
+    a{
+      color: white;
+      text-decoration: none;
+    }
