@@ -6,7 +6,7 @@ body{display: flex;
       background-color: #B5CAFF;
       font-family: Arial, Helvetica, sans-serif;
     }
-    
+   
     section{
       display: flex;
       flex-direction: column;
@@ -54,4 +54,32 @@ body{display: flex;
     a{
       color: white;
       text-decoration: none;
+    }
+
+    svg {
+      width: 90vmin;
+    }
+    .iris{
+      animation: shake 2.5s cubic-bezier(.36,.07,.19,.97) both;
+      transform: translate3d(0, 0, 0);
+      backface-visibility: hidden;
+      perspective: 1000px;
+      animation-iteration-count: infinite;
+    }
+    @keyframes shake {
+      10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+      }
+      
+      20%{
+        transform: translate3d(1px, 0, 0);
+      }
+    
+      30%, 40%, 70% {
+        transform: translate3d(-2px, 1px, 0);
+      }
+    
+      40%, 60% {
+        transform: translate3d(2px, 0, 0);
+      }
     }
