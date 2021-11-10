@@ -39,3 +39,4 @@ https://evancpnt262-a5.herokuapp.com/whatever
 - [Icah Vega](https://github.com/Icahpv) for troubleshooting ideas, thank you.
 - [Tech Endeavor](https://www.youtube.com/watch?v=DBFIp1kIqMs&ab_channel=TechEndeavor) Helping understand routes.
 - [Web Dev Simplified](https://www.youtube.com/watch?v=fgTGADljAeg&ab_channel=WebDevSimplified) Working with express and mongoDB.
+- [Mosh](https://www.youtube.com/watch?v=pKd0Rpw7O48&t=915s&ab_channel=ProgrammingwithMosh)
