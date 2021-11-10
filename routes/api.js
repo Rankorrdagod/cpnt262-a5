@@ -9,29 +9,43 @@ const Location = require('../models/locations')
 
 
 
-router.get('/travel', (req, res) => {
-    if (typeof travel !== 'undefined' && Array.isArray(travel)) {
-    
-      res.send(travel)
-    } else {
-      res.status(404)
-      res.send({error: 'File Not Found'})
-    }
-  })
+router.get('/locations', async (req, res) => {
+    try {
+      let data = await Location.find()
+  
+      
+      if (data.length === 0) {
+        data = localLocation
+      }
+     else { 
+        res.send(data) 
+      }
+    } catch (err) {
+        console.log(err) 
+        res.send({ error: 'Location Not Found' }) // send JSON 404 error
+      }
+    })
 
-  router.get('/travel/:id', (req, res) => {
-    let travelID
-    if (typeof travel !== 'undefined' && Array.isArray(quotes)) {
-      travelID = travel.find(item => Number(req.params.id) === Number(item.id)) 
-      travelID = null;
-    }
-    
-    if (typeof travelID === 'object' && travlID !== null) {
-      res.send(travelID)
-    } else {
-      res.status(404)
-      res.send({error: 'File Not Found'})
-    }
-  })
+    router.get('/locations/:id', async (req, res) => {
+        try {
+       
+          let data = await Location.findOne({ id: req.params.id })
+      
+          
+          if (!data) {
+            data = localLocation.find(car => Number(req.params.id) === location.id) 
+          }
+      
+          if (data) { 
+            res.send(data) 
+          } else { 
+            res.send({ error: 'Location Doesnt Exist' }) // send JSON 404 error
+          }
+      
+        } catch (err) {
+          console.log(err) 
+          res.send({ error: '404 Not Found' }) // send JSON 404 error
+        }
+      })
   
   module.exports = router
