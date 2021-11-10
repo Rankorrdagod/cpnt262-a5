@@ -1,10 +1,29 @@
 # cpnt262-a5
 https://evancpnt262-a5.herokuapp.com/
+https://github.com/Rankorrdagod/cpnt262-a5
+
+## Get requests
+```js
+https://evancpnt262-a5.herokuapp.com/api/locations
+```
+```js
+https://evancpnt262-a5.herokuapp.com/api/locations/4
+```
+```js
+https://evancpnt262-a5.herokuapp.com/whatever
+```
+
 ## Issues
 - For some reason having the schema and db code in different .js files isnt working, schema always comes back as undefined... going to try to add to api.js too see if it fixes it.
 - Added everything to the api.js and it seemed to work! Going toplug along for now and see if anything else breaks.
 - Have tried deploying to heroku a couple of times, compiles fine but then breaks, usually cannot find my files correctly.
 - Heroku is trying to read an old path that doesnt even exist, cannot find ./models/Places.... not sure how to fix.
+- Fixed it either through luck or black magic, or maybe it was whitelisting 0.0.0.0.0
+- Lots of problems when troubleshooting heroku and mongoDB connections
+- Forgot that I have to redeploy to make sure my changes are working on Heroku ie 404 page.
+- Setting up keyframe animations, forgot how timers work...
+- Trouble sorting out which .js file needs which requirements.
+
 
 ## Attributions
 - [Image 1](https://pixabay.com/photos/city-buildings-architecture-towers-336708/)
