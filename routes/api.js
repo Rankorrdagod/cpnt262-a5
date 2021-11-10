@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 
 const Location = require('../models/locations') 
-
+const localLocation = require('../models/seeds/locations')
 
 
 
@@ -33,7 +33,7 @@ router.get('/locations', async (req, res) => {
       
           
           if (!data) {
-            data = localLocation.find(location => Number(req.params.id) === location.id) 
+            data = localLocation.find(Location => Number(req.params.id) === Location.id) 
           }
       
           if (data) { 
