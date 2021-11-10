@@ -17,10 +17,17 @@ body{display: flex;
       
       
     }
-  
+  .heading{
+    display: flex;
+    flex-direction: row;
+    
+   
+  }
       h1{
         font-size: 100px;
         color: #B39449;
+        padding-left: 50px;
+        padding-right: 50px;
       }
       h2{
         color: #B39449;
@@ -55,9 +62,12 @@ body{display: flex;
       color: white;
       text-decoration: none;
     }
-
-    svg {
-      width: 90vmin;
+.logo{
+  width: 10vmin;
+ 
+}
+    .errorlogo {
+      width: 75vmin;
     }
     .iris{
       animation: shake 2.5s cubic-bezier(.36,.07,.19,.97) both;
