@@ -5,12 +5,12 @@ const express = require('express')
 
 const app = express();
 app.use(express.static('public'))
-app.use(express.urlencoded({ extended: true }));
+
 
 const api = require('./routes/api')
 app.use('/api', api)
 
-
+const mongoose = require('./models/db')
 
 // Handle 404 errors with middleware
 app.use((req, res) => {
