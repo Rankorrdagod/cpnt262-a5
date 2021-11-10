@@ -33,7 +33,7 @@ router.get('/locations', async (req, res) => {
       
           
           if (!data) {
-            data = localLocation.find(car => Number(req.params.id) === location.id) 
+            data = localLocation.find(location => Number(req.params.id) === location.id) 
           }
       
           if (data) { 
