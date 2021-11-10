@@ -1,33 +1,43 @@
-body{
+body{display: flex;
+  flex-direction: column;
     text-align: center;
+    align-content: center;
+    align-items: center;
       background-color: #B5CAFF;
       font-family: Arial, Helvetica, sans-serif;
     }
     
-    
-    .gallery {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: auto;
-        max-width: 1200px;
-        margin: auto;
-      }
+    section{
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      text-align: center;
+      align-items: center;
+      background-color: rgb(48, 47, 47);
       
-      .gallery > * {
-        margin: 1em;
-      }
-      figure{
-        background-color: #9CB8FF;
-        
-        border-radius: 5%;
-        
-        padding: 15px;
-      }
-      img{
-        border-radius: 5%;
-      }
+      
+    }
+  
       h1{
         font-size: 100px;
         color: #B39449;
       }
+      h2{
+        color: #B39449;
+      }
+      ul{
+        list-style: none;
+      }
+
+      .metadata{
+        width: 25em;
+        color: white;
+        border-radius: 5em;
+        margin: 2em;
+      }
+      .queryAll{
+        width: 40em;
+        border-radius: 5em;
+        color: white;
+      }
+    
